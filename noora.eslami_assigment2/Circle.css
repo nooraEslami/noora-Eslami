@@ -1,0 +1,30 @@
+.circle {
+    height: 15cm;
+    width: 15cm;
+    background-color:darkcyan;
+    border-radius:90%;
+    display: inline-block;
+}
+.circle {
+    height:1000px;
+    width:1000px;
+    background-color:blue;
+    color:blueviolet;
+    border-radius:200%;
+    text-align:center;
+    line-height:100px;
+}
+.rotating {
+    animation:rotating 10s linear infinite;
+}
+
+
+@keyframes rotating {
+    from {
+        transform: rotate(1deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}

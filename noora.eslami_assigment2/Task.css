@@ -1,0 +1,26 @@
+
+.rotating{
+    background-color : dodgerblue;
+    width: 200px;
+    height: 30px;
+    border: 30px;
+    padding: 10px;
+    margin: 12px;
+    stroke: white;
+    stroke-width: 5px;
+
+}
+.rotating {
+    animation:rotating 10s linear infinite;
+}
+
+
+@keyframes rotating {
+    from {
+        transform: rotate(1deg);
+    }
+
+    to {
+        transform: rotate(180deg);
+    }
+}
