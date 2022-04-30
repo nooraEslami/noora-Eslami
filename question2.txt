@@ -1,0 +1,48 @@
+LENOVO@DESKTOP-FOCACDV MINGW64 ~ (master) $ git clone https://github.com/idin-khayami/git-exercises Cloning into 'git-exercises'... remote: Enumerating objects: 9, done. remote: Counting objects: 100% (9/9), done. remote: Compressing objects: 100% (5/5), done. remote: Total 9 (delta 1), reused 8 (delta 0), pack-reused 0 Receiving objects: 100% (9/9), done. Resolving deltas: 100% (1/1), done.
+
+LENOVO@DESKTOP-FOCACDV MINGW64 ~ (master) $ cd idin-khayami/git-exercises bash: cd: idin-khayami/git-exercises: No such file or directory
+
+LENOVO@DESKTOP-FOCACDV MINGW64 ~ (master) $ cd /idin-khayami/git-exercises bash: cd: /idin-khayami/git-exercises: No such file or directory
+
+LENOVO@DESKTOP-FOCACDV MINGW64 ~ (master) $ cd idin-khayami bash: cd: idin-khayami: No such file or directory
+
+LENOVO@DESKTOP-FOCACDV MINGW64 ~ (master) $ cd git-exercises
+
+LENOVO@DESKTOP-FOCACDV MINGW64 ~/git-exercises (master) $ git branch
+
+master
+LENOVO@DESKTOP-FOCACDV MINGW64 ~/git-exercises (master) $ git checkout question2 Switched to a new branch 'question2' branch 'question2' set up to track 'origin/question2'.
+
+LENOVO@DESKTOP-FOCACDV MINGW64 ~/git-exercises (question2) $ git branch master
+
+question2
+LENOVO@DESKTOP-FOCACDV MINGW64 ~/git-exercises (question2) $ git ls-files-s git: 'ls-files-s' is not a git command. See 'git --help'.
+
+LENOVO@DESKTOP-FOCACDV MINGW64 ~/git-exercises (question2) $ git ls git: 'ls' is not a git command. See 'git --help'.
+
+The most similar command is lfs
+
+LENOVO@DESKTOP-FOCACDV MINGW64 ~/git-exercises (question2) $ git ls git: 'ls' is not a git command. See 'git --help'.
+
+The most similar command is lfs
+
+LENOVO@DESKTOP-FOCACDV MINGW64 ~/git-exercises (question2) $ ls hello.txt
+
+LENOVO@DESKTOP-FOCACDV MINGW64 ~/git-exercises (question2) $ git ls-files hello.txt
+
+LENOVO@DESKTOP-FOCACDV MINGW64 ~/git-exercises (question2) $ git ls-files -s 100644 980a0d5f19a64b4b30a87d4206aade58726b60e3 0 hello.txt
+
+LENOVO@DESKTOP-FOCACDV MINGW64 ~/git-exercises (question2) $ git add -p diff --git a/hello.txt b/hello.txt index 980a0d5..b482ee7 100644 --- a/hello.txt +++ b/hello.txt @@ -1 +1,2 @@ Hello World! +by noora (1/1) Stage this hunk [y,n,q,a,d,e,?]? y
+
+LENOVO@DESKTOP-FOCACDV MINGW64 ~/git-exercises (question2) $ git reset Unstaged changes after reset: M hello.txt
+
+LENOVO@DESKTOP-FOCACDV MINGW64 ~/git-exercises (question2) $ git reset Unstaged changes after reset: M hello.txt
+
+LENOVO@DESKTOP-FOCACDV MINGW64 ~/git-exercises (question2) $ git add .
+
+LENOVO@DESKTOP-FOCACDV MINGW64 ~/git-exercises (question2) $ git commit -m "new chenges of question 2" [question2 f1f1c35] new chenges of question 2 1 file changed, 1 insertion(+)
+
+LENOVO@DESKTOP-FOCACDV MINGW64 ~/git-exercises (question2) $ git reset
+
+LENOVO@DESKTOP-FOCACDV MINGW64 ~/git-exercises (question2) $ git push remote: Permission to idin-khayami/git-exercises.git denied to nooraEslami. fatal: unable to access 'https://github.com/idin-khayami/git-exercises/': The requested URL returned error: 403
+
