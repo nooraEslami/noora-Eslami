@@ -1,0 +1,19 @@
+create the noora-Eslami and initialise is LENOVO@DESKTOP-FOCACDV MINGW64 ~ (master) $ mkdir noora-Eslami
+
+LENOVO@DESKTOP-FOCACDV MINGW64 ~ (master) $ cd noora-Eslami
+
+LENOVO@DESKTOP-FOCACDV MINGW64 ~/noora-Eslami (master) $ git init Initialized empty Git repository in C:/Users/LENOVO/noora-Eslami/.git/
+
+create file 1,2,3,4,5,(توضیح هر کدوم از فایل ها ) and add , commit LENOVO@DESKTOP-FOCACDV MINGW64 ~/noora-Eslami (master) $ git add -A $ git status On branch master
+
+No commits yet
+
+Changes to be committed: (use "git rm --cached ..." to unstage) new file: 1.txt new file: 2.txt new file: 4.txt new file: 5.txt
+
+LENOVO@DESKTOP-FOCACDV MINGW64 ~/noora-Eslami (master) $ git commit -m "the Question 1 part of 1,2,3,5" [master (root-commit) a8eb8b4] the Question 1 part of 1,2,3,5 4 files changed, 5 insertions(+) create mode 100644 1.txt create mode 100644 2.txt create mode 100644 4.txt create mode 100644 5.txt
+
+cat the fils $ cat 1.txt create the noora-Eslami and initialise is
+
+LENOVO@DESKTOP-FOCACDV MINGW64 ~/noora-Eslami (master) $ cat 1.txt create the noora-Eslami and initialise is
+
+LENOVO@DESKTOP-FOCACDV MINGW64 ~/noora-Eslami (master) $ cat 2.txt create file 1,2,3,4,5,(توضیح هر کدوم از فایل ها ) and add , commit $ cat 4.txt cat the fils $ cat 5.txt .git /HEAD =نشان دهنده اخرین کامیتی که انجام دادیم را نشان میدهد. و اینکه نشان میدهد چه کامیتی هم باید وارد کنیم .git/refs/heads/master files=به این معنی است که به منبعی که از ان نشات گرفته اشاره نمیکند
