@@ -1,0 +1,142 @@
+* {
+  background: #0b1524;
+}
+.app {
+  font-family: "Heebo", sans-serif;
+}
+
+#title {
+  font-size: 3.5rem;
+  margin-bottom: 50px;
+}
+
+#title2 {
+  font-size: 1.5rem;
+}
+
+.header {
+  color: white;
+  padding: 20px 100px;
+  margin-top: 3cm;
+}
+
+.header h1 {
+  font-size: xx-large;
+}
+
+.image {
+  margin-top: -5cm;
+  position: absolute;
+  width: auto;
+  height: auto;
+  margin-left: 60%;
+  border-radius: 30px;
+  transition: 2s;
+}
+
+.image:hover {
+  transform: rotateY(10deg) rotateZ(5deg);
+}
+
+.LEARN {
+  color: aliceblue;
+  padding: 10px 30px;
+  background-color: #273c5a;
+  cursor: pointer;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.LEARN:hover {
+  background-color: #30719e;
+}
+
+.EARLY {
+  color: aliceblue;
+  padding: 10px 30px;
+  background-color: red;
+  cursor: pointer;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.EARLY:hover {
+  background-color: #12740d;
+}
+.video {
+  text-align:center;
+  padding: 100px;
+  color: white;
+}
+.bold {
+  color: white;
+  padding: 200px;
+  text-align: left;
+  padding: 500px;
+  margin-left: -450px;
+  font-size: 50px;
+  margin-bottom: -477px;
+}
+
+.picture1 {
+  transition: 2s;
+}
+
+.picture2 {
+  transition: 2s;
+}
+
+.picture3 {
+  position: Relative;
+  margin-top: -503px;
+  margin-left: 503px;
+  transition: 2s;
+}
+.picture4 {
+  position: Relative;
+  margin-left: 530px;
+  transition: 2s;
+}
+.picture5 {
+  position: Relative;
+  margin-left: 1024px;
+  margin-top: -526px;
+  transition: 2s;
+}
+.picture6 {
+  position: Relative;
+  margin-left: 1024px;
+  transition: 2s;
+}
+.picture1:hover {
+  transform: rotateY(2deg) rotateZ(2deg);
+}
+
+.picture2:hover {
+  transform: rotateY(2deg) rotateZ(2deg);
+}
+.picture3:hover {
+  transform: rotateY(2deg) rotateZ(2deg);
+}
+.picture4:hover {
+  transform: rotateY(2deg) rotateZ(2deg);
+}
+.picture5:hover {
+  transform: rotateY(2deg) rotateZ(2deg);
+}
+.picture6:hover {
+  transform: rotateY(2deg) rotateZ(2deg);
+}
+
+.input {
+  margin-top: 200px;
+  text-align: center;
+  font-size: 2rem;
+  background-color: aliceblue;
+  height: 17px;
+}
+.input1 {
+  background-color: aliceblue;
+  padding-left: 100px;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  text-align: start;
+}
